@@ -1,0 +1,98 @@
+
+body{
+    background-color: #23404c;
+    font-family: 'Kanit', sans-serif;
+}
+.cabecalho{
+    padding-top: 1.5rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+.cabecalho::hover{
+    color: #7bdcb5;
+}
+
+.main_div_cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_logo{
+    min-width: 200px;
+}
+.cabecalho_lista{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.lista_div{
+    border-radius: 20px;
+    margin-right: 2rem;
+    padding: 0.4rem 2rem;
+}
+
+.lista_item{
+    display: flex;
+    padding: 1rem;
+    color: #F8F9F9;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+.lista_item::hover {
+    color: #7bdcb5;
+}
+
+.projeto1{
+    background-image: url(https://www.sambiental.com.br/sites/default/files/2022-03/sas.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.div_pos_cabecalho{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    gap: 2rem;
+    padding: 4rem;
+    
+    font-size: 1.2rem;
+    
+    background-color: white;
+    
+}
+
+.div_link{
+    display: flex;
+    justify-content: center;
+}
+
+.link_projeto1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 5em;
+    border-radius: 20px;
+    
+    background-image: url(https://yt3.googleusercontent.com/0UXLYbgE3NeGrpvziBtiNBqeVpdyv4WjxBotQaqeS5WYmQhuHm161JFmgKmgdL9ca1IsKuPk4A=s176-c-k-c0x00ffffff-no-rj);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: #23404c;
+    font-family: "pacifico";
+    font-size: 15px;
+}
